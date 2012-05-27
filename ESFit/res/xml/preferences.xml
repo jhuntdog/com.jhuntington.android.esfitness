@@ -12,6 +12,18 @@
             android:defaultValue="0" />
         	<!-- android:defaultValue="JAppTheme_Light" -->
     </PreferenceCategory>
+    <PreferenceCategory
+       android:title="@string/pref_category_general" >
+        
+        <PreferenceScreen android:title="@string/pref_about_title" android:summary="@string/pref_about_summary">
+            
+            <intent  android:action="android.intent.action.VIEW"
+                android:targetPackage="com.jhuntington.android.esfit" 
+                android:targetClass="com.jhuntington.android.esfit.ui.AboutActivity" /> 
+            
+        </PreferenceScreen>
+        
+    </PreferenceCategory>
     
 
 </PreferenceScreen>

@@ -25,6 +25,7 @@
         <activity android:name="com.jhuntington.android.esfit.ui.CalcActivity" android:label="@string/title_calculators"></activity>
         <activity android:name="com.jhuntington.android.esfit.ui.ContentActivity"></activity>
         <activity android:name="com.jhuntington.android.esfit.ui.ClientActivity"></activity>
+        <activity android:name="com.jhuntington.android.esfit.ui.AboutActivity"></activity>
     </application>
 
 </manifest>

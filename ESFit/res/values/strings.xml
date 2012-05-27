@@ -85,6 +85,27 @@
 	<string name="pref_theme_light">Light</string>
 	<string name="pref_theme_dark">Dark</string>
 	<string name="pref_choose_theme">Choose Theme</string>
+	
+	<string name="pref_category_general">General Info</string>
+    <string name="pref_about_title">About</string>
+    <string name="pref_about_summary">more on ESFit</string>
+    <string name="pref_about_textView">About ESFit App</string>
+	
+	<string name="dialog_activty_title">About ESFit</string>
+    <string name="dialog_activity_text">ESFit</string>
+    <string name="dialog_about_text_html">
+        <![CDATA[
+        
+        <p>Ever wonder how Erica always knows if you at carbs for lunch or can always tell if your elbows move forward?</p>
+        <p>No technology will ever replace Ericas natural talents. But a mobile app can help.</p>
+        <p>ESFit is the fitness app developed for one of the worlds hottest personal trainers, Erica Sweeney.</p>
+        <p>Erica demands a lot from her clients, and ESFit helps meet that demand by showing clients how fat they are.</p>
+        <p>It also provides up-to-the minute Jillian Michaels tweets.</p>
+        <p>ESFit is a platform for experimenting with Android application development.</p>
+        <p>Please contact me if you have any questions or I can help in any way.</p>
+        <p><strong>Every day is leg day!</strong></p>
+        ]]>
+	</string>
     
 
 </resources>
