@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jhuntington.android.esfitbeta.ui.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <Button android:id="@+id/home_btn_male3site"
+        style="@style/DashboardButton"
+        android:text="@string/btn_male3site"
+        android:drawableTop="@drawable/home_btn_male3site" />
+    
+    <Button android:id="@+id/home_btn_female3site"
+        style="@style/DashboardButton"
+        android:text="@string/btn_female3site"
+        android:drawableTop="@drawable/home_btn_female3site" />
+    
+    <Button android:id="@+id/home_btn_male7site"
+        style="@style/DashboardButton"
+        android:text="@string/btn_male7site"
+        android:drawableTop="@drawable/home_btn_male7site" />
+    
+    <Button android:id="@+id/home_btn_female7site"
+        style="@style/DashboardButton"
+        android:text="@string/btn_female7site"
+        android:drawableTop="@drawable/home_btn_female7site" />
+    
+
+</com.jhuntington.android.esfitbeta.ui.DashboardLayout>
