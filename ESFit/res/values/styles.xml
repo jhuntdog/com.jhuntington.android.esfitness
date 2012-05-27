@@ -28,12 +28,10 @@
 	<style name="ActionBar" parent="Widget.Sherlock.ActionBar" />
 	
 	<style name="Widget.Light.ActionBar" parent="Widget.Sherlock.Light.ActionBar">
-		<item name="background">@color/actionbar_background_light</item>
 		<item name="android:background">@color/actionbar_background_light</item>
 	</style>
 	
 	<style name="Widget.Dark.ActionBar" parent="Widget.Sherlock.ActionBar">
-		<item name="background">@color/actionbar_background_dark</item>
 		<item name="android:background">@color/actionbar_background_dark</item>
 	</style>
 	
