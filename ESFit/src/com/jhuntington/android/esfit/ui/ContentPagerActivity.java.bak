@@ -1,0 +1,42 @@
+package com.jhuntington.android.esfit.ui;
+
+import java.util.List;
+import java.util.Vector;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.jhuntington.android.esfit.R;
+
+public class ContentPagerActivity extends SherlockFragmentActivity {
+	
+	private PagerAdapter mPagerAdapter;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		super.setContentView(R.layout.viewpager_layout);
+		//initialsie the pager
+		this.initialisePaging();
+	}
+
+	private void initialisePaging() {
+		List<Fragment> fragments = new Vector<Fragment>();
+		fragments.add(Fragment.instantiate(this, CalcMaleThreeFragment.class.getName()));
+		fragments.add(Fragment.instantiate(this, CalcFemaleThreeFragment.class.getName()));
+		fragments.add(Fragment.instantiate(this, CalcMaleSevenFragment.class.getName()));
+		fragments.add(Fragment.instantiate(this, CalcFemaleSevenFragment.class.getName()));
+		this.mPagerAdapter  = new PagerAdapter(super.getSupportFragmentManager(), fragments);
+		
+		ViewPager pager = (ViewPager)super.findViewById(R.id.viewpager);
+		pager.setAdapter(this.mPagerAdapter);
+
+
+	}
+	
+	
+
+}

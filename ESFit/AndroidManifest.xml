@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.jhuntington.android.esfit.ui.PrefsActivity"></activity>
-        <activity android:name="com.jhuntington.android.esfit.ui.CalcActivity"></activity>
+        <activity android:name="com.jhuntington.android.esfit.ui.CalcActivity" android:label="@string/title_calculators"></activity>
         <activity android:name="com.jhuntington.android.esfit.ui.ContentActivity"></activity>
         <activity android:name="com.jhuntington.android.esfit.ui.ClientActivity"></activity>
     </application>
