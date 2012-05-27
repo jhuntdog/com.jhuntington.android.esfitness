@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Stream -->
+    <dimen name="stream_height">100dp</dimen>
+    <dimen name="stream_padding">10dp</dimen>
+    <dimen name="stream_button_right_padding">20dp</dimen>
+    
+    
+	<!-- body content -->
+    <dimen name="body_padding_medium">10dp</dimen>
+    <dimen name="body_padding_large">10dp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    
+</resources>

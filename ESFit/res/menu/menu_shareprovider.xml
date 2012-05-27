@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_share"
+         android:icon="?attr/menuIconShare" 
+         android:title="@string/menu_share" 
+         android:showAsAction="always"
+         android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+    
+    <item android:id="@+id/menu_testinghelper_button"
+        android:title="@string/menu_testinghelper" />
+
+</menu>

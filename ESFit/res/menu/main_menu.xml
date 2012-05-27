@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_share"
+         android:icon="?attr/menuIconShare" 
+         android:title="@string/menu_share" 
+         android:showAsAction="always"
+         android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+    
+    <item android:id="@+id/menu_share_gb"
+         android:icon="?attr/menuIconShare" 
+         android:title="@string/menu_share" 
+         android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/menu_testinghelper_button"
+        android:title="@string/menu_testinghelper" />
+    
+    <item android:id="@+id/menu_toggle_jillian"
+        android:title="@string/menu_toggle_jillian" />
+    
+    <!-- Theme SubMenu -->
+    <!-- <item android:id="@+id/menu_themes" android:title="@string/menu_themes">
+        <menu>
+            <group android:id="@+id/menu_themes_group" android:checkableBehavior="single">
+                <item android:id="@+id/menu_themes_styled" 
+                    android:title="@string/menu_theme_styled"
+                    android:checked="true" />
+                <item android:id="@+id/menu_themes_light"
+                    android:title="@string/menu_theme_light" />
+                <item android:id="@+id/menu_themes_dark"
+                    android:title="@string/menu_theme_dark" />
+            </group>
+            
+        </menu>
+    </item> -->
+    
+    <!-- <item android:id="@+id/menu_toggleTheme" 
+        android:title="@string/menu_toggleTheme"
+        android:icon="?attr/menuIconThemeToggle" 
+        android:showAsAction="ifRoom"/> -->
+    
+    <!-- <item android:id="@+id/menu_toggleList" 
+        android:icon="?attr/menuIconToggle" 
+        android:title="@string/menu_toggleList" 
+        android:showAsAction="ifRoom" /> -->
+    
+    
+    
+    <item android:id="@+id/menu_prefs" 
+        android:icon="@drawable/ic_menu_preferences" 
+        android:title="@string/menu_prefs" 
+        android:showAsAction="ifRoom|withText"/>
+
+</menu>

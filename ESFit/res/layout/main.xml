@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+	android:id="@+id/home_root"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
+	<fragment android:name="com.jhuntington.android.esfit.ui.DashboardFragment"
+		android:id="@+id/fragment_dashboard"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1" />
+	
+	<fragment
+	    android:id="@+id/fragment_dashboard_clientmeasure"
+	    android:name="com.jhuntington.android.esfit.ui.DashboardClientMeasureFragment"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+	
+	<fragment android:name="com.jhuntington.android.esfit.ui.JillianFragment"
+		android:id="@+id/fragment_jillian"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/stream_height" />
 
 </LinearLayout>

@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, ESFitActivity!</string>
     <string name="app_name">ESFit</string>
+    <string name="app_description">ESFit stands for Erica Sweany Fitness - get fit like Erica!</string>
+	<string name="title_calculators">ES Calcs</string>
+	
+	<string name="jillian_stream_url">http://jhuntington.com/stream.html</string>
+	
+	<string name="title_bodycomposition">Body Composition Calculators</string>
+	<string name="title_clientmeasurements">Client Measurements</string>
+	
+	<string name="title_male3site">Male 3 Site</string>
+	<string name="title_female3site">Female 3 Site</string>
+	<string name="title_male7site">Male 7 Site</string>
+	<string name="title_female7site">Female 7 Site</string>
+	<string name="title_share">Share using</string>
+	
+	<string name="btn_male3site">Male 3 Site</string>
+	<string name="btn_female3site">Female 3 Site</string>
+	<string name="btn_male7site">Male 7 Site</string>
+	<string name="btn_female7site">Female 7 Site</string>
+	<string name="btn_clientmeasure">Client Measurements</string>
+	
+	<string name="menu_share">Share</string>
+	<string name="menu_refresh">Refresh</string>
+	<string name="menu_search">Search</string>
+	<string name="menu_prefs">Prefs</string>
+	<string name="menu_help">Help</string>
+	<string name="menu_about">About</string>
+	<string name="menu_markallread">Mark All Read</string>
+	<string name="menu_toggleTheme">Toggle Theme</string>
+	<string name="menu_toggleList">Toggle List</string>
+	<string name="menu_toggle_jillian">Toggle Jillian</string>
+	
+	<string name="menu_themes">Themes</string>
+	<string name="menu_theme_styled">Styled</string>
+	<string name="menu_theme_light">Light</string>
+	<string name="menu_theme_dark">Dark</string>
+	
+	<string name="menu_testinghelper">Test Helper</string>
+	
+	<string name="search_hint">Search Articles</string>
+	<string name="search_no_results">No Results</string>
+	
+	<string name="share_fat">Share Fatness</string>
+	
+	<string name="menu_share_url">Share Url</string>
+	
+	
+	<string name="txtAge">Age</string>
+	<string name="txtWeight">Weight</string>
+	
+	<string name="txtTriceps">Triceps</string>
+	<string name="txtPectoral">Pectoral</string>
+	<string name="txtMidaxilla">Midaxilla</string>
+	<string name="txtSubscapula">Subscapula</string>
+	<string name="txtAbdomen">Abdomen</string>
+	<string name="txtSuprailiac">Suprailiac</string>
+	<string name="txtQuadriceps">Quadriceps</string>
+	
+	<string name="txtCalculate">Calc</string>
+	<string name="txtReset">Reset</string>
+	
+	<string name="txtBodyDensity">Body Density</string>
+	<string name="txtPercentFat">% Fat</string>
+	
+	<string name="txtLeanWeight">Lean Weight</string>
+	<string name="txtFatWeight">Fat Weight</string>
+	<string name="txtPopulationAverage">Population Average</string>
+	<string name="txtScore">Score</string>
+	<string name="txtRating">Rating</string>
+	
+	<string name="txtSex">Sex</string>
+	<string name="txtMale">Male</string>
+	<string name="txtFemale">Female</string>
+	<string name="txtSites"># Sites</string>
+	<string name="txtSeven">7 Site</string>
+	<string name="txtThree">3 Site</string>
+	
+	<string name="pref_category_display">Display Options</string>
+	<string name="pref_theme_set">Set Theme</string>
+	<string name="pref_key_theme_setter_flag">theme_setter_flag</string>
+	<string name="pref_theme_styled">Styled</string>
+	<string name="pref_theme_light">Light</string>
+	<string name="pref_theme_dark">Dark</string>
+	<string name="pref_choose_theme">Choose Theme</string>
+    
 
 </resources>

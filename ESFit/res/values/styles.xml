@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+
+    <!--  Styles  -->
+	<!--  ###############  -->
+	<style name="AppThemeLight" parent="Theme.Sherlock.Light.ForceOverflow">
+		<item name="actionBarStyle">@style/Widget.Light.ActionBar</item>
+		<item name="android:actionBarStyle">@style/Widget.Light.ActionBar</item>
+	</style>
+	    
+	<style name="AppThemeDark" parent="Theme.Sherlock.ForceOverflow">
+	    <item name="actionBarStyle">@style/Widget.Dark.ActionBar</item>
+		<item name="android:actionBarStyle">@style/Widget.Dark.ActionBar</item>
+	</style>
+	
+	<style name="AppThemeStyled" parent="Theme.Sherlock.Light.ForceOverflow">
+	    <item name="android:actionBarItemBackground">@drawable/ad_selectable_background</item>
+		<item name="actionBarItemBackground">@drawable/ad_selectable_background</item>
+		<item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+		<item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+		<item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+		<item name="actionBarTabStyle">@style/MyActionBarTabStyle</item>
+    </style>
+	
+	<!--  ActionBar Styling  -->
+	<!--  ###############  -->
+	<!-- <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar" /> -->
+	<style name="ActionBar" parent="Widget.Sherlock.ActionBar" />
+	
+	<style name="Widget.Light.ActionBar" parent="Widget.Sherlock.Light.ActionBar">
+		
+	</style>
+	
+	<style name="Widget.Dark.ActionBar" parent="Widget.Sherlock.ActionBar">
+		
+	</style>
+	
+	<style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+		<item name="background">@drawable/bg_striped</item>
+		<item name="android:background">@drawable/bg_striped</item>
+		
+		
+	</style>
+	
+	<!--  Misc ActionBar Styling  -->
+	<!--  ###############  -->
+	<!-- style for the tabs -->
+	<style name="MyActionBarTabStyle" parent="Widget.Sherlock.Light.ActionBar.TabBar">
+		<item name="android:background">@drawable/actionbar_tab_bg</item>
+		<item name="android:paddingLeft">32dp</item>
+		<item name="android:paddingRight">32dp</item>
+	</style>
+	
+	
+	<!--  Element Styling  -->
+	<!--  ###############  -->
+	<style name="TextBig" parent="@android:style/TextAppearance.Large">
+		<item name="android:textSize">30sp</item>
+	</style>
+	<style name="TextMedium" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textSize">18sp</item>
+	</style>
+	<style name="TextSmall" parent="@android:style/TextAppearance.Small">
+		<item name="android:textSize">14sp</item>
+	</style>
+	
+	<style name="DashboardButton">
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:drawablePadding">2dp</item>
+		<item name="android:textSize">@dimen/text_size_small</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/accent_1</item>
+		<item name="android:background">@null</item>
+	</style>
+
+</resources>
