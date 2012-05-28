@@ -12,8 +12,8 @@
          android:title="@string/menu_share" 
          android:showAsAction="ifRoom" />
     
-    <item android:id="@+id/menu_testinghelper_button"
-        android:title="@string/menu_testinghelper" />
+    <!-- <item android:id="@+id/menu_testinghelper_button"
+        android:title="@string/menu_testinghelper" /> -->
     
 
 </menu>

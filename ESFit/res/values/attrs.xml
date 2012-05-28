@@ -9,6 +9,7 @@
         <attr name="menuIconRefresh" format="reference" />
         <attr name="menuIconToggle" format="reference" />
         <attr name="menuIconThemeToggle" format="reference" />
+        <attr name="menuIconJillianToggle" format="reference" />
         <attr name="menuIconPrefs" format="reference" />
 <!--         <attr name="menuIconHelp" format="reference" /> -->
         <attr name="menuIconAbout" format="reference" />

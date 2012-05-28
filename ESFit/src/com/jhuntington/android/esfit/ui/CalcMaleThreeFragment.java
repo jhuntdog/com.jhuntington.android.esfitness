@@ -98,8 +98,6 @@ public class CalcMaleThreeFragment extends SherlockFragment {
 		btnCalc.setOnClickListener(mClickListener);
 		btnReset.setOnClickListener(mClickListener);
 		
-		
-		
 		return mCalcView;
 		
 	}
@@ -275,9 +273,6 @@ public class CalcMaleThreeFragment extends SherlockFragment {
 					mShareActionProvider.setShareIntent(shareIntent);
 				}
 				
-				
-			
-			
 		}
 		
 	}

@@ -123,18 +123,11 @@ public class MainActivity extends BaseActivity implements DashboardFragment.OnDb
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		
-		case R.id.menu_testinghelper_button:
+		/*case R.id.menu_testinghelper_button:
 			SharedPreferences sPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-			String mTheme = sPrefs.getString("theme_select_listpref_key", "");
-			
-			// unknown broken stuff
-			//int myTheme = ESFitApplication.getThemeId();
-			//int myTheme = ESFitApplication.getThemeId();
-			//String mTheme = Integer.toString(myTheme);
-			
+			String mTheme = sPrefs.getString("theme_select_listpref_key", "");			
 			Toast.makeText(this, "Theme set to ? " + mTheme, Toast.LENGTH_SHORT).show();
-			
-			return true;
+			return true;*/
 			
 		case R.id.menu_toggle_jillian:
 			FragmentManager fm = getSupportFragmentManager();

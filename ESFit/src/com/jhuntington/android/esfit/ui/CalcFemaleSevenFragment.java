@@ -302,7 +302,9 @@ public class CalcFemaleSevenFragment extends SherlockFragment {
 			shareIntent.putExtra(Intent.EXTRA_TEXT, "Your Percent Body Fat is " + "\n" + percentFatStr + "." + "\n" + "Eat more cauliflower!");
 			shareIntent.putExtra(Intent.EXTRA_SUBJECT, "How fat are you?");
 			
-			mShareActionProvider.setShareIntent(shareIntent);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+				mShareActionProvider.setShareIntent(shareIntent);
+			}
 		}
 		
 		

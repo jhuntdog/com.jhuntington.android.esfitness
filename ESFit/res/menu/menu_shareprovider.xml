@@ -7,7 +7,7 @@
          android:showAsAction="always"
          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
     
-    <item android:id="@+id/menu_testinghelper_button"
-        android:title="@string/menu_testinghelper" />
+    <!-- <item android:id="@+id/menu_testinghelper_button"
+        android:title="@string/menu_testinghelper" /> -->
 
 </menu>

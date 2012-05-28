@@ -8,6 +8,7 @@
 		<item name="android:actionBarStyle">@style/Widget.Light.ActionBar</item>
 		<item name="listDragShadowBackground">@android:color/background_light</item>	    
 	    <item name="menuIconShare">@drawable/ic_menu_share_holo_light</item>
+	    <item name="menuIconJillianToggle">@drawable/ic_menu_jilliantoggle_holo_light</item>
 	    <item name="menuIconSearch">@drawable/ic_menu_search_holo_light</item>
 	    <item name="menuIconRefresh">@drawable/ic_refresh_holo_light</item>
 	    <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_light</item>
@@ -20,6 +21,7 @@
 		<item name="android:actionBarStyle">@style/Widget.Dark.ActionBar</item>
 		<item name="listDragShadowBackground">@android:color/background_dark</item>
 	    <item name="menuIconShare">@drawable/ic_menu_share_holo_dark</item>
+	    <item name="menuIconJillianToggle">@drawable/ic_menu_jilliantoggle_holo_dark</item>
 	    <item name="menuIconSearch">@drawable/ic_menu_search_holo_dark</item>
 	    <item name="menuIconRefresh">@drawable/ic_refresh_holo_dark</item>
 	    <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_dark</item>
@@ -34,6 +36,13 @@
 		<item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
 		<item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
 		<item name="actionBarTabStyle">@style/MyActionBarTabStyle</item>
+		<item name="menuIconShare">@drawable/ic_menu_share_holo_dark</item>
+	    <item name="menuIconJillianToggle">@drawable/ic_menu_jilliantoggle_holo_dark</item>
+	    <item name="menuIconSearch">@drawable/ic_menu_search_holo_dark</item>
+	    <item name="menuIconRefresh">@drawable/ic_refresh_holo_dark</item>
+	    <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_dark</item>
+	    <item name="menuIconThemeToggle">@drawable/ic_menu_themetoggle_holo_dark</item>
+	    <item name="menuIconAbout">@drawable/ic_about_holo_dark</item>
     </style>
 	
 	<!--  ActionBar Styling  -->
