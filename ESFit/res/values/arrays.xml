@@ -4,7 +4,7 @@
     <string-array name="array_entries_listpref_apptheme">
         <item >Light Theme</item>
         <item >Dark Theme</item>
-        <item >Stylish</item>
+        <item >Erica Styled</item>
     </string-array>
     <string-array name="array_entryvalues_listpref_apptheme">
         <item >0</item>
