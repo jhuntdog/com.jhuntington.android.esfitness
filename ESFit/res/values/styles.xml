@@ -30,25 +30,28 @@
 	</style>
 	
 	<style name="AppThemeStyled" parent="Theme.Sherlock.Light.ForceOverflow">
-	    <item name="android:actionBarItemBackground">@drawable/ad_selectable_background_es</item>
-		<item name="actionBarItemBackground">@drawable/ad_selectable_background_es</item>
-		
-		<item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
-		<item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
-		
-		<item name="android:actionBarTabStyle">@style/ESActionBarTabStyle</item>
 		<item name="actionBarTabStyle">@style/ESActionBarTabStyle</item>
+		<item name="android:actionBarTabStyle">@style/ESActionBarTabStyle</item>
 		
 		<item name="android:dropDownListViewStyle">@style/ESDropDownListView</item>
 		<item name="dropDownListViewStyle">@style/ESDropDownListView</item>
 		
-		<item name="menuIconShare">@drawable/ic_menu_share_holo_light</item>
-	    <item name="menuIconJillianToggle">@drawable/ic_menu_jilliantoggle_holo_light</item>
-	    <item name="menuIconSearch">@drawable/ic_menu_search_holo_light</item>
-	    <item name="menuIconRefresh">@drawable/ic_refresh_holo_light</item>
-	    <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_light</item>
-	    <item name="menuIconThemeToggle">@drawable/ic_menu_themetoggle_holo_light</item>
-	    <item name="menuIconAbout">@drawable/ic_about_holo_light</item>
+		<item name="android:actionBarItemBackground">@drawable/es_selectable_background</item>
+		<item name="actionBarItemBackground">@drawable/es_selectable_background</item>
+		
+		<item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+		<item name="popupMenuStyle">@style/MyPopupMenu</item>
+		
+		<!-- <item name="custom_list_selector">@drawable/list_selector_es</item> -->
+		
+		<item name="menuIconShare">@drawable/ic_menu_share_holo_dark</item>
+	    <item name="menuIconJillianToggle">@drawable/ic_menu_jilliantoggle_holo_dark</item>
+	    <item name="menuIconSearch">@drawable/ic_menu_search_holo_dark</item>
+	    <item name="menuIconRefresh">@drawable/ic_refresh_holo_dark</item>
+	    <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_dark</item>
+	    <item name="menuIconThemeToggle">@drawable/ic_menu_themetoggle_holo_dark</item>
+	    <item name="menuIconAbout">@drawable/ic_about_holo_dark</item>
+		
     </style>
 	
 	<!--  ActionBar Styling  -->
@@ -64,15 +67,15 @@
 		<item name="android:background">@color/actionbar_background_dark</item>
 	</style>
 	
-	<style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar">
-		<item name="background">@drawable/bg_striped</item>
-		<item name="android:background">@drawable/bg_striped</item>
-		
-		
-	</style>
 	
 	<!--  Misc ActionBar Styling  -->
 	<!--  ###############  -->
+	
+	<!-- style the overflow menu -->
+	<style name="MyPopupMenu" parent="Widget.Sherlock.PopupMenu">
+		<item name="android:popupBackground">@drawable/es_menu_dropdown_panel_holo_light</item>
+	</style>
+	
 	<!-- style for the tabs -->
 	<style name="ESActionBarTabStyle" parent="Widget.Sherlock.Light.ActionBar.TabBar">
 		<item name="android:background">@drawable/actionbar_tab_bg_es</item>
@@ -82,8 +85,9 @@
 	
 	<!--  ActionBar DropDown List -->
 	<!-- style the items within the overflow menu -->
-	<style name="ESDropDownListView" parent="Widget.Sherlock.ListView.DropDown">
-		<item name="android:listSelector">@drawable/ad_selectable_background_es</item>
+	<style name="ESDropDownListView" parent="Widget.Sherlock.Light.ListView.DropDown">
+		<item name="android:listSelector">@drawable/es_selectable_background</item>
+		<!-- <item name="android:listSelector">?custom_list_selector</item> -->
 	</style>
 	
 	
