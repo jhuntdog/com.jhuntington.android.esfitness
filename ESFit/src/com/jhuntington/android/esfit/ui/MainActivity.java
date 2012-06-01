@@ -38,6 +38,7 @@ public class MainActivity extends BaseActivity implements DashboardFragment.OnDb
 	private boolean mDualFragments = false;
 	private boolean mDualPane = false;
 	private boolean mJillianHidden = false;
+	private boolean enableJillian = true;
 	//private int mThemeId = -1;
 	
 	SharedPreferences preferences;
@@ -143,6 +144,12 @@ public class MainActivity extends BaseActivity implements DashboardFragment.OnDb
 				
 			}
 			ft.commit();
+			
+			return true;
+			
+		case R.id.menu_show_jillian:
+			enableJillian = !enableJillian;
+			item.setChecked(enableJillian);
 			
 			return true;
 			

@@ -33,6 +33,8 @@
 	<string name="menu_toggleList">Toggle List</string>
 	<string name="menu_toggle_jillian">Toggle Jillian</string>
 	
+	<string name="menu_show_jillian">Enable Jillian Tweets</string>
+	
 	<string name="menu_themes">Themes</string>
 	<string name="menu_theme_styled">Styled</string>
 	<string name="menu_theme_light">Light</string>

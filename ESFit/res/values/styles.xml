@@ -42,10 +42,12 @@
 		<item name="android:popupMenuStyle">@style/MyPopupMenu</item>
 		<item name="popupMenuStyle">@style/MyPopupMenu</item>
 		
+		<item name="android:listChoiceIndicatorMultiple">@drawable/es_btn_check_holo_light</item>
+		
 		<!-- <item name="custom_list_selector">@drawable/list_selector_es</item> -->
 		
 		<item name="menuIconShare">@drawable/ic_menu_share_holo_dark</item>
-	    <item name="menuIconJillianToggle">@drawable/ic_menu_jilliantoggle_holo_dark</item>
+	    <item name="menuIconJillianToggle">@drawable/ic_menu_jilliantoggle_holo_light</item>
 	    <item name="menuIconSearch">@drawable/ic_menu_search_holo_dark</item>
 	    <item name="menuIconRefresh">@drawable/ic_refresh_holo_dark</item>
 	    <item name="menuIconToggle">@drawable/ic_menu_toggle_holo_dark</item>
